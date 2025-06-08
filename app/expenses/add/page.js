@@ -3,7 +3,7 @@ import ExpenseForm from '../../../components/Expenses/ExpenseForm'
 import useExpenses from '../../../hooks/useExpenses'
 import React from 'react'
 
-function page() {
+function Page() {
   const { addExpense } = useExpenses(); // Get the addExpense function
 
   const handleSubmit = async (expenseData) => {
@@ -24,4 +24,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

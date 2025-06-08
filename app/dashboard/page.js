@@ -7,7 +7,7 @@ import ExpenseSummary from '../../components/Dashboard/ExpenseSummary';
 import RecentExpenses from '../../components/Dashboard/RecentExpenses';
 import { motion } from 'framer-motion';
 
-function page() {
+function Page() {
   const {
     expenses,
     loading,
@@ -135,4 +135,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
